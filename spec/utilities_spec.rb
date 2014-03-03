@@ -36,6 +36,7 @@ describe Backup::Utilities do
         pg_dumpall  '/path/to/pg_dumpall'
         redis_cli   '/path/to/redis-cli'
         riak_admin  '/path/to/riak-admin'
+        slapcat     '/path/to/slapcat'
 
         # Encryptors
         gpg     '/path/to/gpg'
